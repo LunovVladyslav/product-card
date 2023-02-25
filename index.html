@@ -10,7 +10,38 @@
   <!-- In order to start your challenge, remove all the content inside <div id="home-page"></div> and start coding :) -->
 
   <body>
-    <div id="home-page"></div>
+    <div id="home-page" class="wrapper">
+      <div class="product-card">
+        <div class="product-card__img">
+          <img
+            src="/public/images/AdobeStock_331830515 1.png"
+            alt=""
+            class="image"
+          />
+        </div>
+        <div class="product-card__description">
+          <div class="product-card__title">
+            <h1>Order Summary</h1>
+            <p>
+              You're close! Confirm your purchase and complete your order in the
+              next step
+            </p>
+          </div>
+          <div class="product-card__track">
+            <img src="/public/images/music.svg" alt="" class="track__icon" />
+            <hr />
+            <div class="track__name">
+              <h3 class="track__name">Annual Plan</h3>
+              <p class="track__price">$58.99 / year</p>
+            </div>
+          </div>
+          <div class="product-card__payment">
+            <button class="payment__btn">Proceed to Payment</button>
+            <a href="" class="payment__cancel">Cancel Order</a>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <script type="module" src="/src/global-scripts/main.js"></script>
     <script
